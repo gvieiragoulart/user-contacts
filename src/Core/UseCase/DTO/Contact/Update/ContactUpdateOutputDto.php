@@ -1,8 +1,8 @@
 <?php
 
-namespace Core\UseCase\DTO\Contact;
+namespace Core\UseCase\DTO\Contact\Update;
 
-class ContactCreateOutputDto
+class ContactUpdateOutputDto
 {
     public function __construct(
         public string $id,

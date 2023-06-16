@@ -2,8 +2,8 @@
 
 namespace Core\UseCase\Contact;
 
-use Core\UseCase\DTO\Contact\ContactCreateInputDto;
-use Core\UseCase\DTO\Contact\ContactCreateOutputDto;
+use Core\UseCase\DTO\Contact\Create\ContactCreateInputDto;
+use Core\UseCase\DTO\Contact\Create\ContactCreateOutputDto;
 use Core\Domain\Entity\Contact;
 use Core\Domain\Repository\ContactRepositoryInterface;
 

@@ -3,8 +3,8 @@
 namespace Core\UseCase\Contact;
 
 use Core\Domain\Repository\ContactRepositoryInterface;
-use Core\UseCase\DTO\Contact\FindAllContactsInputDto;
-use Core\UseCase\DTO\Contact\FindAllContactsOutputDto;
+use Core\UseCase\DTO\Contact\FindAll\FindAllContactsInputDto;
+use Core\UseCase\DTO\Contact\FindAll\FindAllContactsOutputDto;
 
 class FindContactUseCase
 {

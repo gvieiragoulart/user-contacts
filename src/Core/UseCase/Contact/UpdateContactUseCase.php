@@ -3,8 +3,8 @@
 namespace Core\UseCase\Contact;
 
 use Core\Domain\Repository\ContactRepositoryInterface;
-use Core\UseCase\DTO\Contact\ContactUpdateInputDto;
-use Core\UseCase\DTO\Contact\ContactUpdateOutputDto;
+use Core\UseCase\DTO\Contact\Update\ContactUpdateInputDto;
+use Core\UseCase\DTO\Contact\Update\ContactUpdateOutputDto;
 
 class CreateContactUseCase
 {

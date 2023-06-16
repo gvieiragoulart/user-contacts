@@ -1,6 +1,6 @@
 <?php
 
-namespace Core\UseCase\DTO\Contact;
+namespace Core\UseCase\DTO\Contact\FindAll;
 
 class FindAllContactsOutputDto
 {

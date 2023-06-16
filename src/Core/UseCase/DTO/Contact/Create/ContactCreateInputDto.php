@@ -1,13 +1,13 @@
 <?php
 
-namespace Core\UseCase\DTO\Contact;
+namespace Core\UseCase\DTO\Contact\Create;
 
-class ContactUpdateInputDto
+class ContactCreateInputDto
 {
     public function __construct(
-        public string $id,
+        public string $userId,
         public string $name,
-        public ?string $secondName,
+        public string $secondName,
         public string $number,
         public string $email
     ) {
