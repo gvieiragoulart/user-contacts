@@ -1,0 +1,22 @@
+{
+    "name": "gabriel/app-php-catalog-video",
+    "description": "App with PHP - Catalog Video",
+    "authors": [
+        {
+            "name": "Gabriel Vieira",
+            "email": "vieirabiel2009@hotmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src/Core"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "mockery/mockery": "^1.5"
+    },
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}
